@@ -131,6 +131,57 @@ select {
   --space: 1.35rem;
 }
 
+/* CENTER */
+.center {
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--measure);
+}
+
+
+/* CUSTOM CSS */
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url("../fonts/fira_code/woff2/FiraCode-Regular.woff2") format('woff2');
+  src: url("../fonts/fira_code/woff/FiraCode-Regular.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url("../fonts/fira_code/woff2/FiraCode-SemiBold.woff2") format('woff2');
+  src: url("../fonts/fira_code/woff/FiraCode-SemiBold.woff") format('woff');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url("../fonts/fira_code/woff2/FiraCode-Bold.woff2") format('woff2');
+  src: url("../fonts/fira_code/woff/FiraCode-Bold.woff") format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Fira Code';
+}
+
+hr {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+
+
 /* UTILITIES */
 
 .max-width\:measure {
